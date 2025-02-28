@@ -34,7 +34,7 @@ def navigate_to_link(driver):
     return False
 
 def main():
-    browser = webdriver.Firefox()
+    browser = webdriver.Chrome()
 
     try:
         browser.get("https://ru.wikipedia.org/wiki/Заглавная_страница")
